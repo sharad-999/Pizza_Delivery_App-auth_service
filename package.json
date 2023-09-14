@@ -1,0 +1,21 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharad-999/Pizza_Delivery_App-auth_service.git"
+  },
+  "keywords": [],
+  "author": "Sharad Kevadiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharad-999/Pizza_Delivery_App-auth_service/issues"
+  },
+  "homepage": "https://github.com/sharad-999/Pizza_Delivery_App-auth_service#readme"
+}
