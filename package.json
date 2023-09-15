@@ -7,7 +7,9 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "nodemon dist/server.js",
         "format:check": "prettier . --check",
-        "format:fix": "prettier . --write"
+        "format:fix": "prettier . --write",
+        "lint":"eslint .",
+        "lint:fix":"eslint . --fix"
     },
     "repository": {
         "type": "git",
@@ -22,6 +24,10 @@
     "homepage": "https://github.com/sharad-999/Pizza_Delivery_App-auth_service#readme",
     "devDependencies": {
         "@types/node": "^20.6.1",
+        "@typescript-eslint/eslint-plugin": "^6.7.0",
+        "@typescript-eslint/parser": "^6.7.0",
+        "eslint": "^8.49.0",
+        "eslint-config-prettier": "^9.0.0",
         "prettier": "3.0.3",
         "typescript": "^5.2.2"
     }
