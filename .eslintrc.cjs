@@ -16,4 +16,7 @@ module.exports = {
         'no-console': 'error',
         'dot-notation': 'error',
     },
+     "env": {
+        "amd": true
+        }
 };
